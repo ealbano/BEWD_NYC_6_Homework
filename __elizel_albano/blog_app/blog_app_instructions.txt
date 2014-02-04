@@ -1,0 +1,24 @@
+Assignment: Build a blog (for fun, not use)
+ 
+Due: January 14, 2014
+
+ 
+Build a blog with comments
+-X create new rails app called blog_app
+-X create model Post and Comment
+-X Post should have title and content
+-X A Comment should have content, email and the post reference
+-X A post can have many comments
+-X create restful resource of Post (index, show, create, etc.)
+-X root url should be the posts index
+-X allow for commenting on posts show page (a form, list of comments)
+-X after commenting have it redirect to post page
+ 
+If this is too easy, setup authentication system using devise.
+ 
+
+For help look at guides.rubyonrails.org/routing.html
+ 
+
+lots to sift through but some good stuff in here
+stackoverflow.com/questions/14762418/routing-nested-resources-and-matching-controller

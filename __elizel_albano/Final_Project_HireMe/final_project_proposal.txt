@@ -1,0 +1,18 @@
+Elizel Albano
+December 23, 2013
+
+
+BEWD: Final Project Proposal (Milestone 1)
+
+Web Application: HireMe
+
+1. Target Audience
+
+The target audience of HireMe web application are students and professionals looking to manage their professional and educational digital documents in preparation for job interviews and/or to use during job interviews as well as employers who will be granted access to the interviewee candidate’s profile, files and provide comments. 
+
+2. Description of functionality
+
+HireMe is a web-based application for storing, managing, and sharing work or education related digital materials to make the job hunting process more efficient, effective, and organized. Instead of bringing hardcopies (or to supplement hardcopies) to the interview, job hunters will have a platform to store their digitized documents and share it with employers before the interview for review and/or during the interview. The goal is to have a paperless digital platform where job hunters can create their professional profile including a summary of their education and work experience, add pertinent links, and add relevant files for employers to view whether from their educational experience (e.g. transcripts, senior project presentation, thesis) or work experience (e.g. resume, samples of work). Job hunters can add employers to their contacts list and grant them access to view their profile, files, and also add feedback should the employer choose to. All file types can be uploaded including office documents (e.g. .doc, .xls, .ppt, .txt, etc.), photos, and videos. The Contacts list can include information about employers, references, and professional networks detailing the contact name, address, phone number, email; company name, address, email, and phone number; and an area for notes.
+
+3. API
+PaperClip ruby gem API will be used to build the HireMe application for its rich document management solution including an electronic storage system of drawers, folders and documents that provide for comfort, usability, and easy retrieval. Files can be stored and retrieved electronically and allow for multiple users with simultaneous document access. Information will be secured with user passwords, user privileges, and document, folder, and drawer ownership.

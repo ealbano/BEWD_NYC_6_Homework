@@ -1,0 +1,24 @@
+blog_app_instructions.txt
+tab_opened.txt
+
+config/routes.rb
+
+app/views/posts_controller.rb
+app/views/comments_controller.rb
+
+app/views/posts/index.html.erb
+app/views/comments/index.html.erb
+
+app/views/posts/show.html.erb
+app/views/comments/show.html.erb
+
+app/views/posts/_form.html.erb
+app/views/comments/_form.html.erb
+
+app/models/post.rb
+app/models/comment.rb
+
+db/migrate/2014...add_post_reference_to_comments.rb
+other files under db/migrate
+
+Gemfile?

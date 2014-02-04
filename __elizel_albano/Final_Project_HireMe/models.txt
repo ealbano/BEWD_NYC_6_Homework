@@ -1,0 +1,26 @@
+Comments from Eric:
+
+There is an awful lot that's going into the functionality of this and I want to see if I can grasp it all. I'll try to break it down.
+
+User model, information about the user and basically the shareable aspect of this application
+Document Store, a way to upload documents related to the user
+Work history, information about where the user has been
+Commenting system
+I recognize that this is a very basic breakdown but I think this is good.
+
+~~~
+
+A couple things and a bunch of ways we can go with this. I like this. it's like a linkedin and about.me on steroids. You have a lot going into this and an incredible amount of potential functionality as well. Some areas of concern that I'd like to address with you.
+
+Setting up paperclip and giving users their own personal store is no small task
+Is there a front page to this application or a way to search/find users?
+Think about data modeling work experience, education, projects, extra curricular activities, a lot goes into it and it might be good to target a specific demographic
+What's the interface for sharing your page with someone else? Is it a special link, do you send it to their profile?
+The only other thing I would have you consider is to break up these parts into further milestones and create some MVPs(Minimum Viable Product) Say you want people to be able upload documents. Maybe the first thing you can do is give them the ability to add links to their documents. And that the only thing you let people add to their profile is a work experience and education to start then add on more things as you deem necessary.
+
+Considerations:
+One thing to consider is looking into OAuth and having people login/connect their linkedin profile to get relevant information from that.
+Also consider just allowing them to link out to third party sites in general
+
+~~~
+
